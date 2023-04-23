@@ -1,0 +1,278 @@
+
+@import url('https://fonts.googleapis.com/css2? family= Sigmar & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 120px;
+    width: 100%;
+    background-color: rgb(255, 217, 0);
+    
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    padding: 20px;
+}
+
+.logo{
+    color: rgb(255, 153, 0);
+    padding-bottom: 20px;
+    float:left;
+    text-transform: uppercase;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    font-weight: bold ;
+}
+
+.logo span{
+    color: blue;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    font-weight: bold ;
+}
+
+
+.logo img{
+    height: 90px;
+    margin-right: 10px 20px;
+}
+
+.barra{
+    float: right;
+    text-transform: capitalize;
+}
+ul{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul a{
+    color: rgb(88, 88, 88);
+    font-family: 'Sigmar', cursive;
+    text-decoration: none;
+}
+
+
+ul a:hover{
+    color: rgb(255, 255, 255);
+}
+
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    color: rgb(255, 217, 0);
+    font-family: 'Sigmar', cursive;
+    font-weight: 300;
+    margin: 25px;
+
+}
+
+h1{
+    text-transform: uppercase;
+    color: rgb(255, 217, 0);
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Sigmar', cursive;
+    font-size: 45px;
+    font: weight 400px;
+}
+
+footer{
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    background-color:rgba(0, 0, 0, 0.493);
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.redes a{
+    color: rgb(255, 217, 0);
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+.call{
+    width: 60%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(105, 105, 105, 0.486);
+    border: 3px solid rgb(0, 0, 0)  ;
+    float: right;
+    margin:60px 20px 20px 20px;
+    padding: 20px;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+
+h2{
+    color: rgb(255, 217, 0);
+    text-transform: uppercase;
+}
+
+.call p{
+    margin-bottom: 20px;
+    color: #ffd900;
+}
+
+.call a{
+    background-color: #51ff00;;
+    text-decoration: none;
+    color:black;
+    padding: 10px 20px;
+    border: 3px solid #51ff00;;
+    border-radius: 8px;
+}
+
+.call a:hover{
+    background-color: rgb(255, 217, 0);
+}
+
+h3{
+    text-align: center;
+    background-color: rgb(255, 217, 0);
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Sigmar', cursive;
+    color:#000000;
+    padding: 40px;
+}
+
+section.cont{
+    height: 40px;
+    width: 100%;
+
+}
+
+.subir{
+    width: 40px;
+    height: 40px;
+    background-color: #51ff00;
+    position: fixed;
+    right: 60px;
+    bottom: 80px;
+    color:#000000;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    border-radius: 50%;
+}
+
+
+.menu{
+    color: red;
+    text-align: center;
+}
+
+
+.menu span{
+    color: #51ff00;
+}
+
+.menu p{
+    color: #ffd900;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.contenedor{
+    width: 100%;
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-template-areas: 
+    "img1 img2 img3 img3"
+    "img1 img5 img4 img6"
+    "img7 img7 img8 img6"
+    "img9 img10 img11 img11";
+    padding: 20px;
+    grid-gap: 10px;
+}
+.img{
+    border: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.img1{
+    background-image: url(./multimedia/pantsvertical.jpg);
+    grid-area: img1;
+}
+
+.img2{
+    background-image:url(./multimedia/hoodie3.jpg);
+    grid-area: img2;
+}
+
+.img3{
+    background-image:url(./multimedia/kicks2.jpg);
+    grid-area: img3;
+}
+
+.img4{
+    background-image:url(./multimedia/hoodie13.jpg);
+    grid-area: img4;
+}
+
+.img5{
+    background-image:url(./multimedia/hooddieone2.jpg);
+    grid-area: img5;
+}
+
+.img6{
+    background-image:url(./multimedia/pants2.jpg);
+    grid-area: img6;
+}
+
+.img7{
+    background-image:url(./multimedia/kicks1.jpg);
+    grid-area: img7;
+}
+
+.img8{
+    background-image:url(./multimedia/hoodieone.jpg);
+    grid-area: img8;
+}
+
+.img9{
+    background-image:url(./multimedia/hoodieee.jpg);
+    grid-area: img9;
+}
+
+.img10{
+    background-image:url(./multimedia/tshirt1.jpg);
+    grid-area: img10;
+}
+
+.img11{
+    background-image:url(./multimedia/kicks3.jpg);
+    grid-area: img11;
+}   
+
+
+h4{
+    color: #51ff00;
+}
+
+label{
+    color: #51ff00;
+}
